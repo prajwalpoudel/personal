@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="navul">
+                <li>
+                    <a href="index.html" target="_blank">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="../mbman.png" alt="" class="rounded-circle mx-auto my-2 d-block " height="200px" width="200px">
+                </div>
+                <div class="offset-2 col-md-8">
+                    <div class="intro">
+                        <h5>MBMAN COE</h5>
+                        <h6>Urlabari, Morang</h6>
+                        <p>
+                            <i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Maecenas at arcu a nisl mattis faucibus eu id est.
+                                Donec hendrerit, nulla ac eleifend dignissim, ex enim porta enim, ac dignissim lorem enim in lacus.
+                                Nunc tortor lacus, suscipit nec quam quis, gravida tempus erat.
+                                Proin vel metus fringilla, dignissim ante id, viverra sem.
+                                Donec congue cursus lobortis.
+                                Ut at faucibus neque. Proin at sem sapien.
+                            </i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col-md-4 offset-1 education">
+                    <h4>Education</h4>
+                    <div>
+                        <ul>
+                            <li>
+                                <div>
+                                    <h6>Masters in Information System Engineering</h6>
+                                    <p>
+                                        <i>PUSET, Biratnagar</i>
+                                    </p>
+                                    <p>2022-Present</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div>
+                                    <h6>Bachelor in Computer Engineering</h6>
+                                    <p>IOE, Dharan</p>
+                                    <p>2014-2018</p>
+                                    <button class="btn btn-primary btn-sm" id="abc">ABC</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-1 experience">
+                    <h4>Experience</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $("#abc").click( function() {
+            alert("AV");
+        }) ;
+    });
+</script>
+</html>

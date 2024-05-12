@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+}
+.navul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navul li {
+    float: right;
+}
+
+.navul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navul li a:hover {
+    background-color: #111;
+}
+.intro {
+    text-align: center;
+    color: white;
+}
+.education {
+    text-align: center;
+    color: white;
+}
+.experience {
+    text-align: center;
+    color: white;
+}
+.education ul li div {
+    display: inline-block;
+    text-align: left;
+    vertical-align:middle;
+}
+.education ul li div p {
+    line-height: 0.4;
+}
+.education ul {
+   /*padding-left:180px;*/
+}
